@@ -101,7 +101,7 @@ namespace LiteDB.Engine
             }
             else
             {
-                // if not exits, let's create here
+                // if not exists, let's create here
                 _snapshots[collection] = snapshot = create();
             }
 
